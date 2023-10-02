@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* body*/
+body {
+  background-color: #defffc;
+  font-family: "Roboto";
+}
+
+/*header*/
+header {
+  border-bottom: 1px solid black;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+nav ul liv {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #123242;
+}
+
+.logo {
+  width: 150x;
+  display: flex;
+  justify-content: start;
+}
+
+/*MAIN*/
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0px;
+}
+
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: 1px solid black;
+  text-align: center;
+}
+
+/*RESPONSIVE*/
+@media (mun-width: 300px) and (max-width: 800px) {
+  header {
+    font-size: small;
+    width: auto;
+    height: auto;
+  }
+  main {
+    background-color: aqua;
+    padding: 30px;
+    margin: 10px 20px;
+  }
+  h1 {
+    font-size: small;
+  }
+  h2 {
+    font-size: x-small;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+.contenedor {
+  max-width: 100%;
+  height: auto;
+}
+.contenedor img {
+  max-width: 100%;
+  height: auto;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* Relación de aspecto 16:9 */
+  height: 0;
+  overflow: hidden;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*CONTACTENOS*/
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input[type=text], textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.enviar {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.imgOfertas {
+  width: 100%;
+}
+
+/*ROPA*/
+.contenedorRopa {
+  margin: 20px;
+  border: 4px #30afb8;
+  border-radius: auto;
+}
+
+.imgRopa {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contenedorRopa p {
+  background-color: #0f9615;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/*IFRAME*/
+iframe {
+  display: block;
+  margin: auto;
+}
+
+/*# sourceMappingURL=estilo.css.map */

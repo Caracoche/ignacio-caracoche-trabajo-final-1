@@ -1,0 +1,31 @@
+/*ROPA*/
+
+.contenedorRopa {
+    margin: 20px;
+    border: 4px $color-fondo;
+    border-radius: auto;
+  }
+  
+  .imgRopa {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .contenedorRopa p {
+    background-color: $color-fuentes;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  
+  /*IFRAME*/
+
+iframe {
+    display: block;
+    margin: auto;
+  }
+  

@@ -1,0 +1,55 @@
+/*RESPONSIVE*/
+
+@media (mun-width: 300px) and (max-width: 800px) {
+    header {
+      font-size: small;
+      width: auto;
+      height: auto;
+    }
+  
+    main {
+      background-color: aqua;
+      padding: 30px;
+      margin: 10px 20px;
+    }
+  
+    h1 {
+      font-size: small;
+    }
+  
+    h2 {
+      font-size: x-small;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  }
+  
+  .contenedor {
+    max-width: 100%;
+    height: auto;
+  
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+  
+    /* Relación de aspecto 16:9 */
+    height: 0;
+    overflow: hidden;
+  
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
