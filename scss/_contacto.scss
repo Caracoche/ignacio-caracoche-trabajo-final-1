@@ -1,38 +1,65 @@
 /*CONTACTENOS*/
 
 form {
-    margin-top: 20px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: black;
-  }
-  
-  input[type="text"], textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  .enviar {
-    background-color: blue;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    margin-top: 10px;
-  }
-  
-  .imgOfertas {
-    width: 100%;
-  }
-  
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input[type="text"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.enviar {
+  background-color: blue;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.imgOfertas {
+  width: 100%;
+}
+
+.mi-Fondo {
+  background-color: rgb(99, 129, 129);
+}
+
+.mensajeComunicate {
+  text-align: center;
+  padding: 20px 20px 30px 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.formularioContactoTexto {
+  font-family: "Roboto";
+  font-weight:bolder;
+  margin-bottom: 5px;
+}
+
+.color{
+  color:$color-botones
+}
+
