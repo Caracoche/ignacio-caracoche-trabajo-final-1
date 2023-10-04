@@ -1,13 +1,39 @@
 /*MAIN*/
 
 main {
-    margin: 20px;
-    padding: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin: 20px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: start;
+  text-decoration: double;
+  padding: 10px;
+  margin: 10px;
+}
+
+@keyframes animacionImagen {
+  0% {
+    transform: scale(1);
+    opacity: 1;
   }
-  
-  h1 {
-    text-align: center;
-    text-decoration: underline;
-    margin: 20px 0px;
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
   }
-  
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animada {
+  animation: animacionImagen 2s ease-in-out 3s;
+}

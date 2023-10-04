@@ -1,31 +1,49 @@
 /*ROPA*/
 
 .contenedorRopa {
-    margin: 20px;
-    border: 4px $color-fondo;
-    border-radius: auto;
-  }
-  
-  .imgRopa {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .contenedorRopa p {
-    background-color: $color-fuentes;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    font-weight: bolder;
-    font-size: 15px;
-    text-transform: uppercase;
-  }
-  
-  /*IFRAME*/
+  margin: 20px;
+  border: 4px $color-fondo;
+  border-radius: auto;
+}
 
-iframe {
-    display: block;
-    margin: auto;
-  }
+.imgRopa {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.contenedorRopa p {
+  background-color: $color-fuentes;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+/*IFRAME*/
+
+.elemento {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .elemento {
+    background-color: #3498db;
   
+  }
+}
+
+@media (max-width: 480px) {
+  .elemento {
+    background-color: #121213;
+    
+  }
+}
+iframe {
+  display: block;
+  margin: auto;
+}

@@ -52,6 +52,32 @@ h1 {
   text-align: center;
   text-decoration: underline;
   margin: 20px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  text-align: start;
+  text-decoration: double;
+  padding: 10px;
+  margin: 10px;
+}
+
+@keyframes animacionImagen {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animada {
+  animation: animacionImagen 2s ease-in-out 3s;
 }
 
 footer {
@@ -59,6 +85,10 @@ footer {
   padding: 20px;
   border-top: 1px solid black;
   text-align: center;
+  background-color: #b3e0f2;
+  padding: 20px;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+  color: #333;
 }
 
 /*RESPONSIVE*/
@@ -195,6 +225,22 @@ textarea {
 }
 
 /*IFRAME*/
+.elemento {
+  background-color: #3498db;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .elemento {
+    background-color: #3498db;
+  }
+}
+@media (max-width: 480px) {
+  .elemento {
+    background-color: #121213;
+  }
+}
 iframe {
   display: block;
   margin: auto;
